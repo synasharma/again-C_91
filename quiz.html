@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz Html</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-color:black;color:white;">
+<div class="container">
+    <center>
+        <h1 style="font-family:monospace;font-size:35px;">Its time to play!</h1>
+        <br><br><br>
+        <div class="score">
+            <h2 id="player_1_username"></h2><span id="playerscore1"></span>
+            <h2 id="player_2_username"></h2><span id="playerscore2"></span>
+        </div>
+        <br><br><br>
+        <div class="Q/A turn">
+            <h2 style="font-family:monospace;" id="player_que">ans</h2>
+            <h2 style="font-family:monospace;" id="player_ans">que</h2>
+        </div>
+        <br><br><br>
+
+    </center>
+   
+    <div id="output"style="background-image:linear-gradient(#fcba03,#fc03fc);margin-left:280px;" class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+    <h1 style="font-family:monospace;">Add no</h1>
+    </div>
+    
+
+    </div>
+    <br><br><br>
+    <center>
+    <label style="font-size:20px;font-family:monospace;" class="btn btn-warning">Send your question:Enter any two numbers</label><br><br>
+<br><br>
+    <input type="text" placeholder="No.1" class="form-control" id="no1">
+    </center>
+    <br>
+    
+    <input type="text" placeholder="No.2" class="form-control" id="no2">
+
+    <br><br>
+<center> <button style="font-size:20px;font-family:monospace;background-image:linear-gradient(#fcba03,#fc03fc);" 
+    onclick="send_que()" id="send_question">Send</button></center>
+</center>
+</div>
+<script src="quiz.js"></script>
+</body>
+</html>

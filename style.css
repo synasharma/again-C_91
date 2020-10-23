@@ -1,0 +1,32 @@
+.login1,.login2
+{
+padding:10px;
+float:none;
+border-radius:15px;
+}
+#player_1_username,#player_2_username
+{
+    display:inline-block;
+   margin-left:1px;
+    width:40%;
+}
+.heading
+{
+font-size:35px;
+font-family:monospace;
+}
+.login_button
+{
+font-family:monospace;
+background-image:linear-gradient(#fcba03,#fc03fc);
+}
+.username_1,.username_2
+{
+    font-family:monospace;
+}
+.score
+{
+
+margin:50px;
+}
+
